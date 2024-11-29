@@ -2,7 +2,11 @@
 eclipse.project.name = appName + '-core'
 
 dependencies {
+  api "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
   api "com.badlogicgames.gdx:gdx:$gdxVersion"
-//  api "com.github.raeleus.TenPatch:tenpatch:$tenPatchVersion"
-//  api "com.github.raeleus.stripe:stripe:$stripeVersion"
+  api "com.github.raeleus.TenPatch:tenpatch:$tenPatchVersion"
+  api "com.github.raeleus.stripe:stripe:$stripeVersion"
+  api "com.github.lyze237:gdx-FlexBox:$flexBoxVersion"
+  api "com.kotcrab.vis:vis-ui:$visUiVersion"
+//  api "io.github.fourlastor.gdx:harlequin:$harlequinVersion"
 }
